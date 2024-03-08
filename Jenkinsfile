@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+    
     environment {
         DOCKER_REGISTRY = 'docker.io'  // Change this to your Docker registry if needed
         DOCKER_IMAGE = 'nginx-custom:latest'  // Change this to your desired image name and tag
@@ -29,5 +29,4 @@ pipeline {
             }
         }
 }
-
 
